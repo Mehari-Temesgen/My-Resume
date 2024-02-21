@@ -1,0 +1,262 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Styling */
+body {
+  font-family: sans-serif;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin-bottom: 0px;
+}
+/*========== Resume profile ==========*/
+.left-resum {
+  background-color: #e6e6e6;
+}
+.resum-title {
+  background-color: #7d879b;
+  color: white;
+  position: relative;
+  padding-top: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.bottom-curve {
+  content: "";
+  margin-top: -35px;
+  border: medium solid #7d879b;
+  border-right-width: 50px;
+  border-left-width: 50px;
+  border-top-width: 50px;
+  border-color: #7d879b transparent transparent transparent;
+}
+.per-name {
+  font-size: 28px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+}
+.job-title {
+  font-size: 20px;
+}
+.profil-img img {
+  margin: 0px auto;
+  display: block;
+  width: 150px;
+  border: 6px solid #c7c2c2;
+  /* #5f0051 #c7c2c2 #AFBFBE */
+}
+/*========== personal information ==========*/
+.title {
+  color: #013b61;
+  font-size: 24px;
+  border-bottom: 2px solid #c7c2c2;
+  /* padding-left: 10px; */
+}
+.personal-info {
+  font-size: 18px;
+}
+.info-icons i {
+  color: #013b61;
+  font-weight: 500;
+  font-size: 22px;
+  padding-right: 8px;
+}
+.personal-info .info-icons {
+  padding-bottom: 8px;
+}
+.email-address a {
+  text-decoration: none;
+  color: black;
+}
+.info-icons .bx-phone {
+  line-height: 0.05;
+}
+.info-icons .bx-envelope {
+  vertical-align: middle;
+}
+/* ========== Skills ==========*/
+.skill-module {
+  text-align: center;
+  margin: 0rem 1.125rem 0rem 1.025rem;
+}
+.skill-icons {
+  font-size: 36px;
+  font-weight: 700;
+}
+.skill-content {
+  font-size: 17px;
+  font-weight: 500;
+}
+.new-box {
+  border-radius: 4px;
+  /* background-color: white; */
+  padding: 0.5rem 0rem;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.css3-icon {
+  color: #026fb4;
+}
+.java-icon {
+  color: #ff8500;
+}
+.java-icon img {
+  width: 30px;
+}
+.boot-icon {
+  color: #563d7c;
+}
+.jquery-icon {
+  color: #0768ac;
+}
+
+/*========== Languages ========== */
+.langu {
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.languages {
+  font-size: 18px;
+}
+/*=== curve image === */
+.curve-img::after {
+  content: "";
+  height: 5px;
+  background-color: #013b61;
+  display: block;
+  position: relative;
+  border-bottom-color: #013b61;
+}
+/* ========== Profile ========== */
+.main-resume {
+  padding-left: 10px;
+  border-left: 2px solid #122f57;
+  position: relative;
+}
+.main-resume h5 {
+  line-height: 19px;
+}
+.main-resume h5::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 2px solid #1f5297;
+  border-radius: 50px;
+  left: -9px;
+}
+
+.profile {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #e6e6e6;
+  color: #013b61;
+  font-size: 20px;
+  font-weight: 700;
+}
+.profile-text {
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  padding-left: 4px;
+}
+/* ========== Education ========== */
+.edu-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.data-text {
+  text-align: right;
+  color: #013b61;
+  font-weight: 500;
+  font-size: 18px;
+}
+.attend-place {
+  font-size: 18px;
+  color: #013b61;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.tack-content {
+  font-size: 17px;
+}
+.tack-content i {
+  color: #013b61;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* ========== Work Experience ========== */
+.job-description {
+  text-align: justify;
+  font-size: 17px;
+}
+.job-description i {
+  color: #013b61;
+  font-size: 15px;
+  font-weight: 700;
+}
+.project-type {
+  font-size: 18px;
+}
+.project-type i {
+  color: #013b61;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* ========== Referencs ========== */
+.person-name {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.prof-title {
+  color: #013b61;
+  font-weight: 500;
+  font-size: 18px;
+}
+.email-addre {
+  font-size: 18px;
+}
+.progress {
+  background: none;
+  margin-right: 5px;
+  gap: 4px;
+  height: 0.45rem;
+}
+.progress-bar {
+  border-radius: 20px;
+}
+/* =============== */
+/*======== Print Button ======== */
+.print-document {
+  text-align: end;
+  padding-bottom: 18px;
+}
+.print-document button {
+  font-size: 18px;
+}
+/* Some Media Query */
+@media print {
+  html,
+  body {
+    width: 1050px;
+  }
+  #printId {
+    display: none;
+  }
+}
